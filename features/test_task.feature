@@ -1,5 +1,4 @@
 Feature: Check QA Testing -> SDLC page headers count + form filling
-  Description
 
   Scenario: Test task scenario
     Given I am on the page "https://www.softwaretestinghelp.com"
@@ -11,4 +10,4 @@ Feature: Check QA Testing -> SDLC page headers count + form filling
     And I input "mail@mail.com" into Your Email field
     And I input "My Subject" into Subject field
     And I input "My New Message" into Message area
-    And I close page
+    And I wait
