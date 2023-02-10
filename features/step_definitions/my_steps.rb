@@ -6,7 +6,7 @@ When(/^I click on "([^"]*)"$/) do |element|
   find("//a[text()='" + element + "']").click
 end
 
-Then(/^Check page headers$/) do
+Then(/^I check page headers count$/) do
   expect(all("//h1").length).to be == 1
   expect(all("//h2").length).to be > 1
 end
